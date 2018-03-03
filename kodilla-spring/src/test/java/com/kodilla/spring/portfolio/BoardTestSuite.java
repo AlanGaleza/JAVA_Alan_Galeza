@@ -25,7 +25,5 @@ public class BoardTestSuite {
         assertThat(toDoListResult).isEqualTo("This is ToDoList");
         assertThat(inProgressListResult).isEqualTo("This is InProgressList");
         assertThat(doneListResult).isEqualTo("This is Done List");
-
-
     }
 }
