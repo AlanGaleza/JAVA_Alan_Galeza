@@ -1,0 +1,23 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+kodilla-exception/.gradle
+kodilla-exception/out
+
+kodilla-good-patterns/.gradle
+kodilla-good-patterns/out
+
+kodilla-jdbc/.gradle
+kodilla-jdbc/out
+
+kodilla-patterns/out
+kodilla-patterns/.gradle
+
+kodilla-spring/out
+kodilla-spring/.gitignore
+
+kodilla-stream/out
+kodilla-stream/.gradle
+
+kodilla-testing/.gradle
+kodilla-testing/out
+
