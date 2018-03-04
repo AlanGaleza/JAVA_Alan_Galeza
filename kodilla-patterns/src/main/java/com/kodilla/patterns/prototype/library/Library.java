@@ -42,5 +42,4 @@ public final class Library extends Prototype<Library>{
         }
         return libraryClone;
     }
-
 }

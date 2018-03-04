@@ -2,29 +2,36 @@ package com.kodilla.patterns.prototype;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.IntStream;
 
 public class BoardTestSuite {
     @Test
     public void testToString() {
         //given
-        //creating the TasksList for todos
-        TasksList listToDo = new TasksList("To Do Tasks");
+
+        List<Task> toDoList = new ArrayList<>();
         IntStream.iterate(1, n -> n + 1)
                 .limit(10)
-                .forEach(n -> listToDo.getTasks().add(new Task("To Do Task number " + n)));
+                .forEach(n -> toDoList.add(new Task("To Do Task number " + n)));
+        //creating the TasksList for todos
+        TasksList listToDo = new TasksList("To Do Tasks", toDoList);
 
         //creating the TaskList for tasks in progress
-        TasksList listInProgress = new TasksList("In Progress Tasks");
+        List<Task> inProgressList = new ArrayList<>();
         IntStream.iterate(1, n -> n + 1)
                 .limit(10)
-                .forEach(n -> listInProgress.getTasks().add(new Task("In Progress Task number " + n)));
+                .forEach(n -> inProgressList.add(new Task("In progress Tasks " + n)));
+        TasksList listInProgress = new TasksList("In Progress Tasks", inProgressList);
 
         //creating the TaskList for done tasks
-        TasksList listDone = new TasksList("Done Tasks");
+        List<Task> doneList = new ArrayList<>();
         IntStream.iterate(1, n -> n + 1)
                 .limit(10)
-                .forEach(n -> listDone.getTasks().add(new Task("Done Task number " + n)));
+                .forEach(n -> doneList.add(new Task("Done Task number " + n)));
+        TasksList listDone = new TasksList("Done Tasks", doneList);
 
         //creating the board and assigning the lists
         Board board = new Board("Project number 1");
@@ -55,7 +62,6 @@ public class BoardTestSuite {
         board.getLists().remove(listToDo);
 
         //Then
-        System.out.println();
         System.out.println(board);
         System.out.println(clonedBoard);
         System.out.println(deepClonedBoard);

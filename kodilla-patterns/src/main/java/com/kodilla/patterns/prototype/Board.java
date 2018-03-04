@@ -54,7 +54,7 @@ public final class Board extends Prototype<Board> {
 
     public Board deepCopy1() throws CloneNotSupportedException {
         Board clonedBoard = super.clone();
-        clonedBoard.lists = lists.stream().collect(Collectors.toSet());;
+        clonedBoard.lists = lists.stream().map(tasksList -> new TasksList(tasksList.getName(), tasksList.getTasks().stream().map(task -> new Task(task.getName())).collect(Collectors.toList()))).collect(Collectors.toSet());
         return clonedBoard;
     }
 }
