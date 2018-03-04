@@ -10,7 +10,7 @@ import java.util.stream.IntStream;
 public class BoardTestSuite {
     @Test
     public void testToString() {
-        //given
+        //Given
 
         List<Task> toDoList = new ArrayList<>();
         IntStream.iterate(1, n -> n + 1)
@@ -61,6 +61,9 @@ public class BoardTestSuite {
         //When
         board.getLists().remove(listToDo);
 
+        //removing Task from TaskList
+        listDone.getTasks().remove(1);
+
         //Then
         System.out.println(board);
         System.out.println(clonedBoard);
@@ -70,6 +73,5 @@ public class BoardTestSuite {
         Assert.assertEquals(3, deepClonedBoard.getLists().size());
         Assert.assertEquals(clonedBoard.getLists(), board.getLists());
         Assert.assertNotEquals(deepClonedBoard.getLists(), board.getLists());
-
     }
 }

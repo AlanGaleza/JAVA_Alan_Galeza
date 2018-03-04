@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="58678e08-d474-4979-9a1f-4ad1e6d5266c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/Board.java" afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/Board.java" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/TasksList.java" afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/TasksList.java" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/library/Library.java" afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/library/Library.java" />
       <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/prototype/BoardTestSuite.java" afterPath="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/prototype/BoardTestSuite.java" />
     </list>
     <ignored path="$PROJECT_DIR$/kodilla-patterns/.gradle/" />
@@ -81,8 +78,8 @@
       <file leaf-file-name="BoardTestSuite.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/prototype/BoardTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="668">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2360,32 +2357,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BoardTestSuite (1)">
+  <component name="RunManager" selected="JUnit.BoardTestSuite.testToString">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.testing.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.collection.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="kodilla-testing_main" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -2426,6 +2404,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="BoardTestSuite.removeListObjectFromSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.patterns.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="kodilla-patterns_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.prototype" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.prototype.BoardTestSuite" />
+      <option name="METHOD_NAME" value="removeListObjectFromSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="BoardTestSuite.testTaskAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -2451,20 +2454,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CollectionTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardTestSuite.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.testing.collection.*" />
+          <option name="PATTERN" value="com.kodilla.patterns.prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="kodilla-testing_test" />
+      <module name="kodilla-patterns_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.kodilla.testing.collection" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.collection.CollectionTestSuite" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.prototype" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.prototype.BoardTestSuite" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -2570,18 +2573,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.KodillaSpringApplication" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.ReaderTestSuite" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CollectionTestSuite" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BoardTestSuite (1)" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.BoardTestSuite.testTaskAdd" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BoardTestSuite (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTestSuite.testTaskAdd" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BoardTestSuite.removeListObjectFromSet" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.BoardTestSuite.testToString" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BoardTestSuite (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTestSuite.testTaskAdd" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ReaderTestSuite" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CollectionTestSuite" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BoardTestSuite.testToString" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTestSuite.removeListObjectFromSet" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BoardTestSuite (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BoardTestSuite.testTaskAdd" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ReaderTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -2603,47 +2606,48 @@
       <workItem from="1520080311159" duration="372000" />
       <workItem from="1520080759186" duration="14000" />
       <workItem from="1520086862958" duration="16227000" />
-      <workItem from="1520177612064" duration="4548000" />
+      <workItem from="1520177612064" duration="6733000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BoardTestSuite_(1) - 2018.03.04 at 17h 34m 57s.xml">
-      <configuration name="BoardTestSuite (1)" configurationId="JUnit" />
+    <history-entry file="BoardTestSuite_removeListObjectFromSet - 2018.03.04 at 18h 29m 55s.xml">
+      <configuration name="BoardTestSuite.removeListObjectFromSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTestSuite_(1) - 2018.03.04 at 17h 36m 05s.xml">
-      <configuration name="BoardTestSuite (1)" configurationId="JUnit" />
+    <history-entry file="BoardTestSuite_removeListObjectFromSet - 2018.03.04 at 18h 31m 04s.xml">
+      <configuration name="BoardTestSuite.removeListObjectFromSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTestSuite_(1) - 2018.03.04 at 17h 37m 37s.xml">
-      <configuration name="BoardTestSuite (1)" configurationId="JUnit" />
+    <history-entry file="BoardTestSuite_removeListObjectFromSet - 2018.03.04 at 18h 31m 31s.xml">
+      <configuration name="BoardTestSuite.removeListObjectFromSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTestSuite_(1) - 2018.03.04 at 17h 38m 07s.xml">
-      <configuration name="BoardTestSuite (1)" configurationId="JUnit" />
+    <history-entry file="BoardTestSuite_removeListObjectFromSet - 2018.03.04 at 18h 32m 46s.xml">
+      <configuration name="BoardTestSuite.removeListObjectFromSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTestSuite_(1) - 2018.03.04 at 17h 40m 22s.xml">
-      <configuration name="BoardTestSuite (1)" configurationId="JUnit" />
+    <history-entry file="BoardTestSuite_removeListObjectFromSet - 2018.03.04 at 18h 34m 03s.xml">
+      <configuration name="BoardTestSuite.removeListObjectFromSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTestSuite_(1) - 2018.03.04 at 17h 41m 14s.xml">
-      <configuration name="BoardTestSuite (1)" configurationId="JUnit" />
+    <history-entry file="BoardTestSuite_removeListObjectFromSet - 2018.03.04 at 18h 35m 17s.xml">
+      <configuration name="BoardTestSuite.removeListObjectFromSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTestSuite_(1) - 2018.03.04 at 17h 41m 54s.xml">
-      <configuration name="BoardTestSuite (1)" configurationId="JUnit" />
+    <history-entry file="BoardTestSuite_removeListObjectFromSet - 2018.03.04 at 18h 35m 41s.xml">
+      <configuration name="BoardTestSuite.removeListObjectFromSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTestSuite_(1) - 2018.03.04 at 17h 45m 03s.xml">
-      <configuration name="BoardTestSuite (1)" configurationId="JUnit" />
+    <history-entry file="BoardTestSuite_removeListObjectFromSet - 2018.03.04 at 18h 37m 56s.xml">
+      <configuration name="BoardTestSuite.removeListObjectFromSet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTestSuite_(1) - 2018.03.04 at 17h 48m 08s.xml">
-      <configuration name="BoardTestSuite (1)" configurationId="JUnit" />
+    <history-entry file="BoardTestSuite_testToString - 2018.03.04 at 18h 39m 11s.xml">
+      <configuration name="BoardTestSuite.testToString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BoardTestSuite_(1) - 2018.03.04 at 17h 49m 03s.xml">
-      <configuration name="BoardTestSuite (1)" configurationId="JUnit" />
+    <history-entry file="BoardTestSuite_testToString - 2018.03.04 at 18h 39m 59s.xml">
+      <configuration name="BoardTestSuite.testToString" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26635000" />
+    <option name="totallyTimeSpent" value="28820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2654,12 +2658,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28504673" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3025701" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25799572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25799572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3056,8 +3060,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/prototype/BoardTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="668">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
