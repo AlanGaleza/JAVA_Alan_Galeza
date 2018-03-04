@@ -5,10 +5,17 @@
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/../../kodilla-spring/src/main/java/com/kodilla/spring/library/LibraryConfig.java</file>
+<<<<<<< HEAD
           <file>file://$MODULE_DIR$/../../kodilla-spring/src/main/java/com/kodilla/spring/reader/ReaderConfig.java</file>
           <file>file://$MODULE_DIR$/../../kodilla-spring/src/main/java/com/kodilla/spring/intro/KodillaSpringIntroApplication.java</file>
           <file>file://$MODULE_DIR$/../../kodilla-spring/src/main/java/com/kodilla/spring/portfolio/BoardConfig.java</file>
           <file>file://$MODULE_DIR$/../../kodilla-spring/src/main/java/com/kodilla/spring/SpringRunner.java</file>
+=======
+          <file>file://$MODULE_DIR$/../../kodilla-spring/src/main/java/com/kodilla/spring/portfolio/BoardConfig.java</file>
+          <file>file://$MODULE_DIR$/../../kodilla-spring/src/main/java/com/kodilla/spring/intro/KodillaSpringIntroApplication.java</file>
+          <file>file://$MODULE_DIR$/../../kodilla-spring/src/main/java/com/kodilla/spring/SpringRunner.java</file>
+          <file>file://$MODULE_DIR$/../../kodilla-spring/src/main/java/com/kodilla/spring/reader/ReaderConfig.java</file>
+>>>>>>> 7b33d6f39827e9acf3d00130afaf46deb8a0857d
           <file>file://$MODULE_DIR$/../../kodilla-spring/src/main/java/com/kodilla/spring/shape/ShapesFactory.java</file>
         </fileset>
       </configuration>

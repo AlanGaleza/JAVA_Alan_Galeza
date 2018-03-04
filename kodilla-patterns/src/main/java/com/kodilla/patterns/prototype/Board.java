@@ -1,7 +1,9 @@
 package com.kodilla.patterns.prototype;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public final class Board extends Prototype<Board> {
     String name;
@@ -36,8 +38,8 @@ public final class Board extends Prototype<Board> {
         return super.clone();
     }
 
-
-    public Board deepCopy() throws CloneNotSupportedException {
+//mozna tak lub streamem(lambda) nizej
+/*    public Board deepCopy() throws CloneNotSupportedException {
         Board clonedBoard = super.clone();
         clonedBoard.lists = new HashSet<>();
         for(TasksList theList : lists) {
@@ -47,6 +49,12 @@ public final class Board extends Prototype<Board> {
             }
             clonedBoard.getLists().add(clonedList);
         }
+        return clonedBoard;
+    }*/
+
+    public Board deepCopy1() throws CloneNotSupportedException {
+        Board clonedBoard = super.clone();
+        clonedBoard.lists = lists.stream().map(tasksList -> new TasksList(tasksList.getName(), tasksList.getTasks().stream().map(task -> new Task(task.getName())).collect(Collectors.toList()))).collect(Collectors.toSet());
         return clonedBoard;
     }
 }
