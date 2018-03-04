@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-good-patterns.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-good-patterns_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns_main.iml" group="kodilla-good-patterns" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-good-patterns_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-good-patterns_test.iml" group="kodilla-good-patterns" />
+      <module fileurl="file://$PROJECT_DIR$/kodilla-hibernate/kodilla-hibernate.iml" filepath="$PROJECT_DIR$/kodilla-hibernate/kodilla-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-hibernate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate_main.iml" group="kodilla-hibernate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-hibernate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate_test.iml" group="kodilla-hibernate" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-jdbc.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-jdbc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-jdbc_main.iml" group="kodilla-jdbc" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-jdbc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-jdbc_test.iml" group="kodilla-jdbc" />
