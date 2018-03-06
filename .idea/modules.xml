@@ -3,11 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JAVA_Alan_Galeza.iml" filepath="$PROJECT_DIR$/.idea/JAVA_Alan_Galeza.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JAVA_Alan_Galeza-kodilla-spring_main.iml" filepath="$PROJECT_DIR$/.idea/modules/JAVA_Alan_Galeza-kodilla-spring_main.iml" />
       <module fileurl="file://$PROJECT_DIR$/kodilla-hibernate/kodilla-hibernate.iml" filepath="$PROJECT_DIR$/kodilla-hibernate/kodilla-hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-hibernate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate_main.iml" group="kodilla-hibernate" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-hibernate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-hibernate_test.iml" group="kodilla-hibernate" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kodilla-spring_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kodilla-spring_main.iml" group="kodilla-spring" />
     </modules>
   </component>
 </project>
