@@ -49,7 +49,7 @@ public class Employee {
         return companies;
     }
 
-    public void setId(int id) {
+    private void setId(int id) {
         this.id = id;
     }
 

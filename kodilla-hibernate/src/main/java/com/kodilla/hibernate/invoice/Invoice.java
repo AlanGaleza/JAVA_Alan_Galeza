@@ -6,35 +6,30 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "PRODUCT")
-public class Product {
+@Table(name = "INVOICE")
+public class Invoice {
     private int id;
-    private String name;
+    private String number;
     private List<Item> items = new ArrayList<>();
 
-    public Product() {
+    public Invoice() {
     }
 
-    public Product(String name) {
-        this.name = name;
+    public Invoice(String number) {
+        this.number = number;
     }
 
     @Id
     @GeneratedValue
     @NotNull
-    @Column(name = "PRODUCT_ID", unique = true)
+    @Column(name = "INVOICE_ID", unique = true)
     public int getId() {
         return id;
     }
 
-    @Column(name = "PRODUCT_NAME")
-    public String getName() {
-        return name;
-    }
-
     @OneToMany(
             targetEntity = Item.class,
-            mappedBy = "product",
+            mappedBy = "invoice",
             cascade = CascadeType.ALL,
             fetch = FetchType.LAZY
     )
@@ -42,15 +37,20 @@ public class Product {
         return items;
     }
 
+    @Column(name = "NUMBER")
+    public String getNumber() {
+        return number;
+    }
+
     private void setId(int id) {
         this.id = id;
     }
 
-    private void setName(String name) {
-        this.name = name;
+    public void setItems(List<Item> items) {
+        this.items = items;
     }
 
-    private void setItems(List<Item> items) {
-        this.items = items;
+    public void setNumber(String number) {
+        this.number = number;
     }
 }
