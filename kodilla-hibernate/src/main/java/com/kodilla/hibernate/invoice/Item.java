@@ -13,7 +13,6 @@ public class Item {
     private int quantity;
     private BigDecimal value = new BigDecimal(BigInteger.ZERO, 2);
     private Product product;
-    private Invoice invoice;
 
     public Item() {
     }
@@ -47,16 +46,10 @@ public class Item {
         return value;
     }
 
-    @ManyToOne
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "PRODUCT_ID")
     public Product getProduct() {
         return product;
-    }
-
-    @ManyToOne
-    @JoinColumn(name = "INVOICE_ID")
-    public Invoice getInvoice() {
-        return invoice;
     }
 
     private void setId(int id) {
@@ -77,9 +70,5 @@ public class Item {
 
     public void setProduct(Product product) {
         this.product = product;
-    }
-
-    public void setInvoice(Invoice invoice) {
-        this.invoice = invoice;
     }
 }

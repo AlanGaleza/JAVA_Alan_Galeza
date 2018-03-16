@@ -29,10 +29,10 @@ public class Invoice {
 
     @OneToMany(
             targetEntity = Item.class,
-            mappedBy = "invoice",
             cascade = CascadeType.ALL,
             fetch = FetchType.LAZY
     )
+    @JoinColumn(name = "ITEM_ID")
     public List<Item> getItems() {
         return items;
     }
